@@ -20,7 +20,13 @@ body{
     margin:0;    padding: 0;
     background:#fff;
     }
-
+pre{
+ font-family: "Lucida Sans", sans-serif;
+ background-color: #fff;
+ border-style: solid;
+    border-color: #111 #333 #555 #777;
+    color: #777777;
+}
 .header {
     background-color: #fff;
     
