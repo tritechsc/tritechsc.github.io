@@ -23,43 +23,48 @@ html, body, #header {
 }
 body{   
     margin:0;    padding: 0;
-    background:#fff;}
+    background:#fff;
+    }
 
 .header {
-    background-color: #676767;
+    background-color: #fff;
     
 
-    color: #ffffff;
+    color: #777777;
     padding: 15px;
 }
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+     text-decoration: none;
 }
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #6981c7;
     color: #ffffff;
+     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
     background-color: #425c9f;
+    color: #000;
+     text-decoration: none;
 }
 
-a{
+a.link{
 display:inline-block;
 font-family:sans-serif;
 font-size: 24px;
 padding: 3px 3px 3px 3px;
-background-color:#676767;
-color:#fff;
+background-color:#fff;
+color:#777;
 text-decoration: none;
 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-a:hover {
+a.link:hover {
 font-family:sans-serif;
  color:#8eb1e1;
  text-decoration: none;
@@ -125,23 +130,20 @@ font-family:sans-serif;
 <body>
 
 <div class="header">
-  <h1>tritechsc.github.io : TriTech Skills Center Github</h1>
-  	<a href="http://tritechsc.github.io">home</a>
-	<a href="files/github-git-cheat-sheet.pdf">git commands pdf</a>
-	<a href="gitexamples.html">git Examples</a>
-	<a href="ipv4.html" target = "_blank">IP V4</a>
-	<a href="learngit.html" target = "_blank">Learn git videos </a>
-	<a href = "https://github.com/tritechsc/arduino" target = "_blank"> arduino redp </a>
-	<a href="https://github.com/tritechsc?tab=repositories" target = "_blank" >tritechsc repos</a>
+<img src = "img/tritechsc.github.io.png" > <img src = "img/tritechsc.png" ><img src = "octo/octo-1.png" height = "80"><br />
+  	<a href="http://tritechsc.github.io" class = "link">home</a>
+	<a href = "https://github.com/tritechsc/arduino" class = "link"> arduino redp </a>
+	<a href="https://github.com/tritechsc?tab=repositories" class = "link" >tritechsc repos</a>
 </div>
 
 <div class="row">
-
 <div class="col-3 col-m-3 menu">
-Organizations
   <ul>
-    <li>TriTech-Imagine</li>
-    <li>TTCyber</li>
+    <li>Organizations</li>
+		<li><a href = "https://github.com/tritech-imagine" target = "_blank"> TriTech-Imagine</a>
+    	<li><a href = "https://github.com/ttcyber" target = "_blank"> TriTech-Imagine</a>
+    	<li><a href = "https://github.com/tritech-cyberpatriot" target = "_blank"> TriTech-CyberPatriot</a>
+
   </ul>
 </div>
 
@@ -153,26 +155,12 @@ Organizations
 
 <div class="col-3 col-m-12">
   <div class="aside">
-    <h2><a href = "sites.html" target = "iframea">*?tab=repositories</a></h2>
-    <a href = "https://github.com/tritechsc/cyberpatriot"> <img src = "img/cyberpatriot.png" height = "50"</a>
+    <h3><a href = "sites.html" target = "iframea">*?tab=repositories</a></h3>
   </div>
 </div>
-
 </div>
-
-		<a href = "https://github.com/ttcyber" target = "_blank"> Tri-Tech Cyber Organization Repos </a>
-		<a href = "https://github.com/ttcyber" target = "_blank"> Tri-Tech Imagine Organization Repos </a>
-
 <div class="footer">
-  <p>Teamwork  
-  
-  425c9f
-
-6981c7
-
-8eb1e1
-
-</p>
+  <p>425c9f		6981c7	8eb1e1	</p>
 </div>
 
 </body>
